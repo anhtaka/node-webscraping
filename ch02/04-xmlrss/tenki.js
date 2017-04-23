@@ -8,7 +8,10 @@ var request = require('request');
 // RSSをダウンロード ---- (※1)
 request(RSS, function (err, response, body) {
   if (!err && response.statusCode == 200) {
+    console.log("test");
     analyzeRSS(body);
+  }else{
+    console.log("test1");
   }
 });
 

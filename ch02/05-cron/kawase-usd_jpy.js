@@ -23,6 +23,7 @@ request(API, function(err, response, body) {
       "-" + t.getDay() + ".txt";
   var text = "1usd=" + jpy + "jpy";
   console.log(text);
+  console.log(fname);
   fs.writeFile(fname, text);
 });
 
