@@ -4,6 +4,7 @@
 var API = "http://api.aoikujira.com/kawase/get.php?code=USD&format=json";
 
 // モジュールの取り込み
+//test
 var request = require('request');
 var fs = require('fs');
 
