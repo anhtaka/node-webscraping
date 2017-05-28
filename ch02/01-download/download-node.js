@@ -3,7 +3,7 @@
 // ダウンロード元URLの指定
 var url = "http://kujirahand.com/";
 // 保存先のパスを指定
-var savepath = "test.html";
+var savepath = "test2.html";
 
 // 利用モジュールの取り込み ---- (※1)
 var http = require('http'); // HTTPのモジュール
