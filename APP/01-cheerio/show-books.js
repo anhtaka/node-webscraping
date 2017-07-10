@@ -1,6 +1,10 @@
 // モジュールの取り込み
 var cheerio = require('cheerio');
 var fs = require('fs');
+//var fs2 = require('test')
+//ddfdfdfdfdfd
+//fdflfadlkfadfalflakfklakfdjfjeinvdkfkja
+//test
 
 // サンプルXMLデータを得て、cheerioに読み込ませる
 var xml = fs.readFileSync("test.xml", "utf-8");
