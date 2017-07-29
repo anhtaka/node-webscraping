@@ -11,6 +11,7 @@ casper.start();
 // 作詞掲示板のログインページを開く ---- (※1)
 casper.open("http://uta.pw/sakusibbs/users.php?action=login");
 
+
 // ログインする ---- (※2)
 casper.then(function(){
   // フォームにユーザー名とパスワードを設定して送信
